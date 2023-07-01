@@ -1,0 +1,26 @@
+.product-preview img {
+  height: 60px;
+  width: 60px;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  border-color: #ccc;
+}
+img.product-active {
+  opacity: 1;
+}
+
+/* page affiche produits*/
+
+.wrapper-code {
+  border: 1px solid #d5d8db;
+  border-radius: 10px;
+}
+.wrapper-avantage {
+  border: 1px solid #f6f7f8;
+  background-color: #f6f7f8;
+  border-radius: 10px;
+}
+.wrapper-code h3 {
+  color: #333;
+}
